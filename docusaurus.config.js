@@ -107,6 +107,12 @@ const config = {
             position: 'left',
             label: 'API Documentation',
           },
+            {
+            type: 'docSidebar',
+            sidebarId: 'aiDocumentationSidebar',
+            position: 'left',
+            label: 'AI Documentation',
+          },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/Seyinka/writetech-accelerator-portfolio-seyitan.git',

@@ -11,11 +11,8 @@ Welcome! This repository contains all my project work and deliverables from the 
 Over the course of the bootcamp, I completed technical writing projects across various domains — including API documentation, AI, DevOps, automation, and Web3 — using modern documentation workflows and tools.
 
 ## 👩🏽‍💻 About Me
-
-_A short 2–3 sentence professional summary. Include your background, writing interests, and what you’re hoping to achieve with technical writing._
-
-Example:  
-I'm a technical writer with a background in software development and a passion for clear, user-focused documentation. This portfolio highlights the practical skills I’ve built during the WriteTech Accelerator.
+ 
+I'm a technical writer with a background in cloud engineering and a passion for clear, user-focused documentation. This portfolio highlights the practical skills I’ve built during the WriteTech Accelerator.
 
 ## 📁 Project Modules
 

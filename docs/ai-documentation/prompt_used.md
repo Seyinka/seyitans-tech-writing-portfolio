@@ -1,0 +1,7 @@
+# Prompt Used
+
+**Prompt:**
+
+"Read the LLaMA 2 MODEL_CARD content at this link: https://github.com/meta-llama/llama/blob/main/MODEL_CARD.md
+
+Help generate a summary outline that includes the Model Card, Purpose, Training Data, Metrics and Risks."
