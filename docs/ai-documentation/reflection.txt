@@ -1,10 +1,10 @@
-# Reflection on Creating the LLaMA 2 Model Card
+Reflection on Creating the LLaMA 2 Model Card
 
-## Approach
+Approach
 To complete this task, I used an AI tool (ChatGPT) to generate an initial outline of the LLaMA 2 model card.  
 My first prompt was:  
-> *"Read the LLaMA 2 MODEL_CARD content at this link: https://github.com/meta-llama/llama/blob/main/MODEL_CARD.md   
-Help generate a summary outline that includes the Model Card, Purpose, Training Data, Metrics and Risks."*  
+"Read the LLaMA 2 MODEL_CARD content at this link: https://github.com/meta-llama/llama/blob/main/MODEL_CARD.md   
+Help generate a summary outline that includes the Model Card, Purpose, Training Data, Metrics and Risks."  
 
 This produced an outline that highlighted the model’s purpose, training data, metrics, risks, and ethical considerations.
 
@@ -13,18 +13,18 @@ This produced an outline that highlighted the model’s purpose, training data, 
 The AI-generated outline was useful, but it was in a machine-like style.  
 I manually edited the content to:
 - Improve the flow and readability.  
-- Vary the sentence structures so it sounded more natural. 
-- Ensure the final version looked like a human-written summary.
-- Follow the outline given by WTH-Accelerator program.
+- Vary the sentence structures so it sounded more natural.  
+- Ensure the final version looked like a human-written summary.  
+- Follow the outline given by WTH-Accelerator program.  
 
 ---
 
-## Learnings
+Learnings
 - AI tools are excellent for starting documentation and pointing out key details quickly.  
 - It is essential to maintain a consistent tone, and ensure good readability.  
 - The usage of AI with personal reasoning is essential to create a document that is both accurate and natural.  
 
 ---
 
-## Conclusion
+Conclusion
 The exercise showed that AI can be a great tool for creating technical documents quickly, as long as you carefully check and revise the work afterward. The final result is both efficient and high quality, with accurate information presented in a clear, polished way.
