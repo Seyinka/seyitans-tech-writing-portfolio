@@ -77,10 +77,7 @@ const sidebars = {
       label: 'Files',
       items: [
         'ai-documentation/model_card',
-        'ai-documentation/ai_output',
         'ai-documentation/final_doc',
-        'ai-documentation/prompt_used',
-        'ai-documentation/reflection',
       ],
     },
   ],
