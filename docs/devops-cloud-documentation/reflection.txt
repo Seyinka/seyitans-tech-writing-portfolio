@@ -1,0 +1,8 @@
+Reflection: What I Learned
+
+Working on this project taught me several things:  
+
+- **Importance of Clarity**: Explaining cloud concepts simply makes them easier to understand.  
+- **Screenshots are gamechangers**: Visuals guide beginners better than text alone.  
+- **Optional vs Required steps**: Splitting them helps beginners focus on the basics first.  
+- **Docs need flow**: Navigation, step-by-step sections, and troubleshooting make the experience smooth.

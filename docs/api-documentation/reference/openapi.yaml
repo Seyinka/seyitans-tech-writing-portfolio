@@ -1,0 +1,85 @@
+openapi: 3.0.3
+info:
+  title: Chimoney API
+  version: 1.0.0
+  description: Swagger documentation for Chimoney API endpoints exported from Postman
+servers:
+  - url: https://api.chimoney.io
+paths:
+  /:
+    get:
+      summary: Ping Chimoney
+      description: Test connectivity to the Chimoney API
+      responses:
+        '200':
+          description: Successful response from Chimoney API
+          content:
+            application/json:
+              example:
+                status: success
+                message: Pong
+
+  /payouts:
+    post:
+      summary: Payout Chimoney
+      description: Make a payout to one or multiple Chimoney accounts
+      requestBody:
+        required: true
+        content:
+          application/json:
+            example:
+              chimoneys:
+                - email: "syinka44@gmail.com"
+                  valueInUSD: 150
+                  metadata:
+                    purpose: "Gift"
+      responses:
+        '200':
+          description: Successful payout response
+          content:
+            application/json:
+              example:
+                status: success
+                message: Chimoney payout completed successfully
+                data:
+                  paymentLink: "https://sandbox.chimoney.io/pay/?issueID=gFyyepsp44fxwrqx3jaZztttvam2_151_1760219480691"
+                  data:
+                    - id: "0lkBjJqxTNDasFLci7Ru"
+                      email: "syinka44@gmail.com"
+                      valueInUSD: 150
+                      metadata:
+                        purpose: "Gift"
+                      chimoney: 150000
+                      chiRef: "b3c82184-fad0-44cf-b4af-ac8c2a897fe5"
+                      status: paid
+                      redeemLink: "https://sandbox.chimoney.io/redeem/?chi=b3c82184-fad0-44cf-b4af-ac8c2a897fe5"
+                  error: "None"
+
+  /assets:
+    get:
+      summary: Get list of all assets
+      description: Returns a list of supported assets from Chimoney
+      responses:
+        '200':
+          description: List of assets retrieved successfully
+          content:
+            application/json:
+              example:
+                status: success
+                message: Assets retrieved successfully
+                data:
+                  benefitsList:
+                    - name: Chimoney Wallet
+                      img: https://res.cloudinary.com/dpi5au7jy/image/upload/v1742819554/Chimoney_Web_xx0vbq.png
+                      description: Redeem to your wallet and spend anytime
+                      available: true
+                      code: wallet
+                      type: Wallet
+                    - name: INTERAC™ e-Transfer 🇨🇦
+                      img: https://res.cloudinary.com/dpi5au7jy/image/upload/v1742820098/Interac_ixsw3z.png
+                      description: Redeem to INTERAC™ e-Transfer
+                      countries:
+                        - Canada
+                      available: true
+                      code: interac
+                      type: Bank Transfer
