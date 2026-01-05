@@ -2,114 +2,127 @@
 
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
+  // ======================
+  // ABOUT
+  // ======================
   profileSidebar: [
     {
-      type: "doc",
-      label: "About Me",
-      id: "intro",
+      type: 'doc',
+      id: 'intro',
+      label: 'About Me',
     },
   ],
 
+  // ======================
+  // DOCUMENTATION TOOLING
+  // ======================
   toolingSidebar: [
     {
-      type: "doc",
-      label: "Introduction",
-      id: "documentation-tooling/intro",
+      type: 'doc',
+      id: 'documentation-tooling/intro',
+      label: 'Introduction',
     },
     {
-      type: "category",
-      label: "Mautic",
+      type: 'category',
+      label: 'Mautic Documentation',
       link: {
-        type: "doc",
-        id: "documentation-tooling/mautic-overview",
+        type: 'doc',
+        id: 'documentation-tooling/mautic-overview',
       },
       items: [
-        "documentation-tooling/getting-started",
+        'documentation-tooling/getting-started',
         {
-          type: "category",
-          label: "API Reference",
-          link: {
-            type: "doc",
-            id: "documentation-tooling/mautic-overview",
-          },
+          type: 'category',
+          label: 'API Reference',
           items: [
-            "documentation-tooling/api-reference/get-user",
-            "documentation-tooling/api-reference/post-transaction",
+            'documentation-tooling/api-reference/get-user',
+            'documentation-tooling/api-reference/post-transaction',
           ],
         },
       ],
     },
   ],
 
+  // ======================
+  // API DOCUMENTATION
+  // ======================
   apiSidebar: [
     {
-      type: "doc",
-      label: "Introduction",
-      id: "api-documentation/intro",
+      type: 'doc',
+      id: 'api-documentation/intro',
+      label: 'Introduction',
     },
     {
-      type: "category",
-      label: "Getting Started",
-      link: {
-        type: "doc",
-        id: "api-documentation/getting-started",
-      },
-      items: [],
+      type: 'doc',
+      id: 'api-documentation/getting-started',
+      label: 'Getting Started',
     },
     {
-      type: "category",
-      label: "API Reference",
+      type: 'category',
+      label: 'API Reference',
       items: [
-        "api-documentation/reference/info",
-        "api-documentation/reference/payouts",
+        'api-documentation/reference/info',
+        'api-documentation/reference/payouts',
       ],
     },
   ],
 
-  // 👇 New AI Documentation sidebar
-  aiDocumentationSidebar: [
-    {
-      type: "doc",
-      label: "Overview",
-      id: "ai-documentation/README",
-    },
-    {
-      type: "category",
-      label: "Model Documentation",
-      items: ["ai-documentation/model_card", "ai-documentation/final_doc"],
-    },
-  ],
-
-  web3Sidebar: [
-    {
-      type: "doc",
-      label: "Overview",
-      id: "web3-documentation/README",
-    },
-    {
-      type: "category",
-      label: "Web3 Documentation",
-      items: ["web3-documentation/whitepaper"],
-    },
-  ],
-
+  // ======================
+  // DEVOPS / CLOUD
+  // ======================
   devopsSidebar: [
     {
-      type: "doc",
-      label: "Overview",
-      id: "devops-cloud-documentation/README",
+      type: 'doc',
+      id: 'devops-cloud-documentation/README',
+      label: 'Overview',
     },
     {
-      type: "category",
-      label: "Devops Documenation",
+      type: 'category',
+      label: 'DevOps Case Study',
       items: [
-        "devops-cloud-documentation/overview",
-        "devops-cloud-documentation/setup",
-        "devops-cloud-documentation/step_by_step",
-        "devops-cloud-documentation/summary",
-        "devops-cloud-documentation/troubleshooting",
+        'devops-cloud-documentation/overview',
+        'devops-cloud-documentation/setup',
+        'devops-cloud-documentation/step_by_step',
+        'devops-cloud-documentation/troubleshooting',
+        'devops-cloud-documentation/summary',
       ],
+    },
+  ],
+
+  // ======================
+  // AI DOCUMENTATION
+  // ======================
+  aiSidebar: [
+    {
+      type: 'doc',
+      id: 'ai-documentation/README',
+      label: 'Overview',
+    },
+    {
+      type: 'category',
+      label: 'Model Documentation',
+      items: [
+        'ai-documentation/model_card',
+        'ai-documentation/final_doc',
+      ],
+    },
+  ],
+
+  // ======================
+  // WEB3
+  // ======================
+  web3Sidebar: [
+    {
+      type: 'doc',
+      id: 'web3-documentation/README',
+      label: 'Overview',
+    },
+    {
+      type: 'category',
+      label: 'Web3 Writing Sample',
+      items: ['web3-documentation/whitepaper'],
     },
   ],
 };
+
 export default sidebars;

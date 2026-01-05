@@ -1,41 +1,28 @@
 // @ts-check
-// `@type` JSDoc annotations allow editor autocompletion and type checking
-// (when paired with `@ts-check`).
-// There are various equivalent ways to declare your Docusaurus config.
-// See: https://docusaurus.io/docs/api/docusaurus-config
+// Portfolio-first Docusaurus configuration
 
-import {themes as prismThemes} from 'prism-react-renderer';
-
-// This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
+import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Seyitan\'s Technical Writing Portfolio',
-  tagline: 'My portfolio for the WriteTech Accelerator Program, showcasing projects from each module and final deliverable.',
+  title: 'Seyitan Oluwaseitan',
+  tagline:
+    'Technical Writer & DevOps Engineer · Clear documentation for cloud, APIs, and emerging technologies',
   favicon: 'img/favicon.ico',
 
-  // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
-    v4: true, // Improve compatibility with the upcoming Docusaurus v4
+    v4: true,
   },
 
-  // Set the production url of your site here
   url: 'https://writetech-accelerator-portfolio-sey-three.vercel.app/',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'Seyinka',
+  projectName: 'technical-writing-portfolio',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -44,29 +31,17 @@ const config = {
   presets: [
     [
       'classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
+          routeBasePath: '/docs',
           editUrl:
-            'https://github.com/Seyinka/writetech-accelerator-portfolio-seyitan.git',
+            'https://github.com/Seyinka/writetech-accelerator-portfolio-seyitan',
         },
         blog: {
           showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/Seyinka/writetech-accelerator-portfolio-seyitan.git',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
+            'https://github.com/Seyinka/writetech-accelerator-portfolio-seyitan',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -76,111 +51,97 @@ const config = {
   ],
 
   themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Seyitan',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Seyitan Logo',
           src: 'img/logo.svg',
         },
         items: [
           {
+            label: 'My Work',
+            position: 'left',
+            items: [
+              {
+                type: 'docSidebar',
+                sidebarId: 'toolingSidebar',
+                label: 'Documentation Tooling',
+              },
+              {
+                type: 'docSidebar',
+                sidebarId: 'apiSidebar',
+                label: 'API Documentation',
+              },
+              {
+                type: 'docSidebar',
+                sidebarId: 'devopsSidebar',
+                label: 'DevOps Documentation',
+              },
+              {
+                type: 'docSidebar',
+                sidebarId: 'aiSidebar',
+                label: 'AI Documentation',
+              },
+              {
+                type: 'docSidebar',
+                sidebarId: 'web3Sidebar',
+                label: 'Web3 Documentation',
+              },
+            ],
+          },
+          {
             type: 'docSidebar',
             sidebarId: 'profileSidebar',
+            label: 'About',
             position: 'left',
-            label: 'Overview',
           },
-
+          { to: '/blog', label: 'Blog', position: 'left' },
           {
-            type: 'docSidebar',
-            sidebarId: 'toolingSidebar',
-            position: 'left',
-            label: 'Docs Tooling',
-          },
-
-          {
-            type: 'docSidebar',
-            sidebarId: 'apiSidebar',
-            position: 'left',
-            label: 'API Documentation',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'aiDocumentationSidebar',
-            position: 'left',
-            label: 'AI Documentation',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'devopsSidebar',
-            position: 'left',
-            label: 'Devops Documentation',
-          },
-           {
-            type: 'docSidebar',
-            sidebarId: 'web3Sidebar',
-            position: 'left',
-            label: 'Web3 Documentation',
-          },
-
-
-
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/Seyinka/writetech-accelerator-portfolio-seyitan.git',
+            href:
+              'https://github.com/Seyinka/writetech-accelerator-portfolio-seyitan',
             label: 'GitHub',
             position: 'right',
           },
         ],
       },
+
       footer: {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'My Work',
             items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
+              { label: 'Documentation Tooling', to: '/docs/documentation-tooling/intro' },
+              { label: 'API Documentation', to: '/docs/api-documentation/intro' },
+              { label: 'DevOps Documentation', to: '/docs/devops-cloud-documentation/README' },
+              { label: 'AI Documentation', to: '/docs/ai-documentation/README' },
+              { label: 'Web3 Documentation', to: '/docs/web3-documentation/README' },
             ],
           },
           {
-            title: 'Community',
+            title: 'Connect',
             items: [
               {
                 label: 'LinkedIn',
-                href: 'https://www.linkedin.com/in/seyitan-oluwaseitan-83ab93251',
+                href:
+                  'https://www.linkedin.com/in/seyitan-oluwaseitan-83ab93251',
               },
               {
                 label: 'Hashnode',
                 href: 'https://seyitanjohnson.hashnode.dev',
               },
               {
-                label: 'X',
-                href: 'https://x.com/TheIjeshaboy',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
                 label: 'GitHub',
-                href: 'https://github.com/Seyinka/writetech-accelerator-portfolio-seyitan.git',
+                href:
+                  'https://github.com/Seyinka/writetech-accelerator-portfolio-seyitan',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Built by Seyitan Oluwaseitan ~ WriteTech Accelerator Programme 2025.`,
+        copyright: `© ${new Date().getFullYear()} Seyitan Oluwaseitan · Technical Writing & DevOps`,
       },
+
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
