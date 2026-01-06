@@ -114,7 +114,7 @@ const sidebars = {
   web3Sidebar: [
     {
       type: 'doc',
-      id: 'web3-documentation/README',
+      id: 'web3-documentation/intro',
       label: 'Overview',
     },
     {

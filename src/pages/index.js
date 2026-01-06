@@ -79,7 +79,7 @@ const projects = [
   {
     title: "Technical Writing in Web3",
     description: "Whitepaper draft for a Web3 platform",
-    link: "/docs/web3-documentation/README",
+    link: "/docs/web3-documentation/intro",
   },
 ];
 

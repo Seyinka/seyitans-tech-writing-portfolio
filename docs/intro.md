@@ -18,11 +18,11 @@ I'm a technical writer with a background in cloud engineering and a passion for 
 | Module | Final Deliverables |
 |--------|---------------------|
 | [Documentation Tooling & Static Site Generators](/docs/documentation-tooling/intro) | How-to guide for setting up a docs-as-code workflow using Docusaurus |
-|[API Documentation & OpenAPI](api-documentation) | Improved documentation for selected endpoints from a real or public API |
+|[API Documentation & OpenAPI](/docs/api-documentation/intro) | Improved documentation for selected endpoints from a real or public API |
 | Documentation Automation | Automated checks (style, links, builds) using tools like Vale, Spectral, and GitHub Actions |
-|[AI for Documentation](ai-documentation) |Comparison of AI tools or prompt-based documentation using your own examples |
-|[DevOps & Cloud Documentation](devops-cloud-documentation)| Step-by-step guide for a DevOps/cloud tool or process (e.g., CI/CD, deployment) |
-|[Technical Writing in Web3](web3-documentation) |  Whitepaper draft for a Web3 platform |
+|[AI for Documentation](/docs/ai-documentation/intro) |Comparison of AI tools or prompt-based documentation using your own examples |
+|[DevOps & Cloud Documentation](/docs/devops-cloud-documentation/intro)| Step-by-step guide for a DevOps/cloud tool or process (e.g., CI/CD, deployment) |
+|[Technical Writing in Web3](/docs/web3-documentation/intro) |  Whitepaper draft for a Web3 platform |
 
 ## 🔗 Additional Links
 

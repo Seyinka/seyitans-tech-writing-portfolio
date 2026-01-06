@@ -134,7 +134,7 @@ const config = {
             },
             {
               label: 'Web3 Documentation',
-              to: '/docs/web3-documentation/README',
+              to: '/docs/web3-documentation/intro',
 
             },
           ],
