@@ -73,7 +73,7 @@ const sidebars = {
   devopsSidebar: [
     {
       type: 'doc',
-      id: 'devops-cloud-documentation/README',
+      id: 'devops-cloud-documentation/intro',
       label: 'Overview',
     },
     {
@@ -95,7 +95,7 @@ const sidebars = {
   aiSidebar: [
     {
       type: 'doc',
-      id: 'ai-documentation/README',
+      id: 'ai-documentation/intro',
       label: 'Overview',
     },
     {

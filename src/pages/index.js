@@ -64,22 +64,22 @@ const projects = [
   {
     title: "Documentation Automation",
     description: "Automated checks using tools like Vale, Spectral, and GitHub Actions",
-    link: "/docs/documentation-tooling/automation",
+    link: "/docs/documentation-tooling/getting-started", // adjust if needed
   },
   {
     title: "AI for Documentation",
     description: "Prompt-based documentation using AI tools",
-    link: "/docs/ai-documentation/README",
+    link: "/docs/ai-documentation/", // README.md maps to folder
   },
   {
     title: "DevOps & Cloud Documentation",
     description: "Step-by-step guide for a DevOps/cloud tool or process",
-    link: "/docs/devops-cloud-documentation/README",
+    link: "/docs/devops-cloud-documentation/", // README.md maps to folder
   },
   {
     title: "Technical Writing in Web3",
     description: "Whitepaper draft for a Web3 platform",
-    link: "/docs/web3-documentation/README",
+    link: "/docs/web3-documentation/", // README.md maps to folder
   },
 ];
 

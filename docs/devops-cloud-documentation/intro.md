@@ -1,3 +1,8 @@
+---
+id: intro
+title: DevOps & Cloud Documentation
+---
+
 # DevOps/Cloud Documentation Project - Deploy a Static Website on AWS
 
 This project involves hosting a static website (HTML, CSS, JavaScript) on Amazon S3 but in this project deploys just HTML and CSS webpage.
