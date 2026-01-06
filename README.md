@@ -1,9 +1,9 @@
 ---
 sidebar_position: 1
-title: My WriteTech Accelerator Portfolio
+title: My Technical Writing Portfolio
 ---
 
-# Seyitan's WriteTech Accelerator Portfolio
+# Seyitan's Technical Writing Portfolio
 
 Welcome! This repository showcases all my projects and deliverables from the **WriteTech Accelerator Program**.  
 Over the course of the bootcamp, I completed technical writing projects across **API documentation, AI, DevOps, automation, and Web3**, using modern documentation workflows and tools.

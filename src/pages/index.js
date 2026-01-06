@@ -23,7 +23,7 @@ function HeroSection() {
           <div className={styles.heroButtons}>
             <Link
               className="button button--primary button--lg"
-              to="/docs/profile/intro"
+              to="/docs/intro"
             >
               View Portfolio
             </Link>
@@ -64,22 +64,22 @@ const projects = [
   {
     title: "Documentation Automation",
     description: "Automated checks using tools like Vale, Spectral, and GitHub Actions",
-    link: "/docs/documentation-tooling/getting-started", // adjust if needed
+    link: "/docs/documentation-tooling/getting-started",
   },
   {
     title: "AI for Documentation",
     description: "Prompt-based documentation using AI tools",
-    link: "/docs/ai-documentation/", // README.md maps to folder
+    link: "/docs/ai-documentation/intro",
   },
   {
     title: "DevOps & Cloud Documentation",
     description: "Step-by-step guide for a DevOps/cloud tool or process",
-    link: "/docs/devops-cloud-documentation/", // README.md maps to folder
+    link: "/docs/devops-cloud-documentation/intro",
   },
   {
     title: "Technical Writing in Web3",
     description: "Whitepaper draft for a Web3 platform",
-    link: "/docs/web3-documentation/", // README.md maps to folder
+    link: "/docs/web3-documentation/README",
   },
 ];
 
