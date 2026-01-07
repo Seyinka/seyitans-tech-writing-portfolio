@@ -1,32 +1,69 @@
 ---
 sidebar_position: 1
-title: My WriteTech Accelerator Portfolio
+title: My Technical Writing Portfolio
 ---
 
-## Seyitan's WriteTech Accelerator Portfolio
+# Seyitan's Technical Writing Portfolio
 
-Welcome! This repository contains all my project work and deliverables from the **WriteTech Accelerator Program**.
+Welcome! This repository showcases all my projects and deliverables from the **WriteTech Accelerator Program**.  
+Over the course of the bootcamp, I completed technical writing projects across **API documentation, AI, DevOps, automation, and Web3**, using modern documentation workflows and tools.
 
-Over the course of the bootcamp, I completed technical writing projects across various domains — including API documentation, AI, DevOps, automation, and Web3 — using modern documentation workflows and tools.
+---
 
 ## 👩🏽‍💻 About Me
 
-I'm a technical writer with a background in cloud engineering and a passion for clear, user-focused documentation. This portfolio highlights the practical skills I’ve built during the WriteTech Accelerator.
+I am a Technical Writer and DevOps Engineer passionate about creating **clear, user-focused documentation**.  
+This portfolio highlights the practical skills I’ve built during the WriteTech Accelerator program, including writing, tooling, and automation.
 
-## 📁 Project Modules
+---
 
-| Module | Final Deliverables |
-|--------|---------------------|
-| [Documentation Tooling & Static Site Generators](/docs/documentation-tooling/intro) | How-to guide for setting up a docs-as-code workflow using Docusaurus |
-|[API Documentation & OpenAPI](/docs/api-documentation/intro) | Improved documentation for selected endpoints from a real or public API |
-| Documentation Automation | Automated checks (style, links, builds) using tools like Vale, Spectral, and GitHub Actions |
-|[AI for Documentation](/docs/ai-documentation/intro) |Comparison of AI tools or prompt-based documentation using your own examples |
-|[DevOps & Cloud Documentation](/docs/devops-cloud-documentation/intro)| Step-by-step guide for a DevOps/cloud tool or process (e.g., CI/CD, deployment) |
-|[Technical Writing in Web3](/docs/web3-documentation/intro) |  Whitepaper draft for a Web3 platform |
+## 📁 My Work / Project Modules
+
+Here’s a quick overview of my portfolio projects:
+
+| Project | Description | Docs Link |
+|--------|------------|-----------|
+| Documentation Tooling & Static Site Generators | How-to guide for setting up a docs-as-code workflow using Docusaurus | [Explore Docs](../documentation-tooling/intro) |
+| API Documentation & OpenAPI | Improved documentation for selected endpoints from a real or public API | [Explore Docs](../api-documentation/intro) |
+| Documentation Automation | Automated checks for style, links, and builds using Vale, Spectral, and GitHub Actions | Coming Soon |
+| AI for Documentation | Comparison of AI tools and prompt-based documentation using real examples | [Explore Docs](../ai-documentation/README) |
+| DevOps & Cloud Documentation | Step-by-step guides for CI/CD, deployments, and cloud tools | [Explore Docs](../devops-cloud-documentation/README) |
+| Technical Writing in Web3 | Draft whitepaper for a Web3 platform | [Explore Docs](../web3-documentation/README) |
+
+> This table acts as a **portfolio showcase**, giving visitors quick access to each project’s documentation.
+
+---
 
 ## 🔗 Additional Links
 
 - [LinkedIn](https://www.linkedin.com/in/seyitan-oluwaseitan-83ab93251)
-- [WriteTech Portfolio Website](https://writetech-accelerator-portfolio-sey-three.vercel.app/m)
+- [WriteTech Portfolio Website](https://writetech-accelerator-portfolio-sey-three.vercel.app/)
 
-Thanks for checking out my work!
+---
+
+## 💻 Local Development (Optional)
+
+If you want to explore the website locally:
+
+```bash
+yarn
+yarn start
+
+
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+
+ ## Build
+bash
+yarn build
+
+This command generates static content into the build directory and can be served using any static contents hosting service.
+
+## Deployment Using SSH:
+bash
+USE_SSH=true yarn deploy
+
+Not using SSH:
+bash
+GIT_USER=<Your GitHub username> yarn deploy
+
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the gh-pages branch
