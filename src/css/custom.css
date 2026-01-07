@@ -28,3 +28,105 @@
   --ifm-color-primary-lightest: #e6e6e6;
   --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.1)
 }
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  /* Reduce page padding */
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  /* Navbar title spacing */
+  .navbar__title {
+    font-size: 1rem;
+  }
+
+  /* Footer alignment */
+  .footer {
+    text-align: center;
+  }
+}
+
+/* ======================
+   DOCS GLOBAL STYLING
+====================== */
+
+/* Brand colors */
+:root {
+  --ifm-color-primary: #4f46e5;
+  --ifm-color-primary-dark: #4338ca;
+  --ifm-color-primary-darker: #3730a3;
+  --ifm-color-primary-light: #6366f1;
+  --ifm-color-primary-lighter: #818cf8;
+
+  --ifm-background-color: #0f172a;
+  --ifm-font-color-base: #e5e7eb;
+
+  --ifm-code-font-size: 95%;
+}
+
+/* Docs page background */
+.main-wrapper {
+  background-color: #0f172a;
+}
+
+/* Docs content container */
+.markdown {
+  line-height: 1.75;
+  font-size: 1.05rem;
+}
+
+/* Headings */
+.markdown h1,
+.markdown h2,
+.markdown h3 {
+  color: #fbbf24;
+}
+
+/* Paragraphs */
+.markdown p {
+  color: #e5e7eb;
+}
+
+/* Links */
+.markdown a {
+  color: #818cf8;
+  font-weight: 500;
+}
+
+.markdown a:hover {
+  color: #fbbf24;
+  text-decoration: underline;
+}
+
+/* Code blocks */
+.theme-code-block {
+  border-radius: 10px;
+  font-size: 0.95rem;
+}
+
+/* Inline code */
+code {
+  background-color: #1e293b;
+  color: #fbbf24;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+}
+
+/* Admonitions (note, tip, warning) */
+.alert--info {
+  background-color: #1e3a8a;
+}
+
+.alert--success {
+  background-color: #065f46;
+}
+
+.alert--warning {
+  background-color: #78350f;
+}
+
+.alert--danger {
+  background-color: #7f1d1d;
+}
