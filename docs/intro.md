@@ -26,9 +26,9 @@ Here’s a quick overview of my portfolio projects:
 | Documentation Tooling & Static Site Generators | How-to guide for setting up a docs-as-code workflow using Docusaurus | [Explore Docs](../documentation-tooling/intro) |
 | API Documentation & OpenAPI | Improved documentation for selected endpoints from a real or public API | [Explore Docs](../api-documentation/intro) |
 | Documentation Automation | Automated checks for style, links, and builds using Vale, Spectral, and GitHub Actions | Coming Soon |
-| AI for Documentation | Comparison of AI tools and prompt-based documentation using real examples | [Explore Docs](../ai-documentation/README) |
-| DevOps & Cloud Documentation | Step-by-step guides for CI/CD, deployments, and cloud tools | [Explore Docs](../devops-cloud-documentation/README) |
-| Technical Writing in Web3 | Draft whitepaper for a Web3 platform | [Explore Docs](../web3-documentation/README) |
+| AI for Documentation | Comparison of AI tools and prompt-based documentation using real examples | [Explore Docs](../ai-documentation/intro) |
+| DevOps & Cloud Documentation | Step-by-step guides for CI/CD, deployments, and cloud tools | [Explore Docs](../devops-cloud-documentation/intro) |
+| Technical Writing in Web3 | Draft whitepaper for a Web3 platform | [Explore Docs](../web3-documentation/intro) |
 
 > This table acts as a **portfolio showcase**, giving visitors quick access to each project’s documentation.
 
