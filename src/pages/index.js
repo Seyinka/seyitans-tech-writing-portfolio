@@ -30,9 +30,9 @@ function HeroSection() {
 
             <Link
               className="button button--secondary button--lg"
-              to="/blog"
+              to="/articles"
             >
-              Read Articles (Coming Soon)
+              Read Articles
             </Link>
           </div>
         </div>

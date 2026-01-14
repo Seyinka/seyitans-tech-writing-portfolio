@@ -1,4 +1,7 @@
-# Chimoney API Documentation Project
+---
+id: intro
+title: Chimoney API Documentation Project
+---
 
 This project documents the **Chimoney Public REST API**, including a comprehensive **Getting Started** section and detailed documentation for selected endpoints such as **Payout Chimoney**, and **Get All Assets List**.
 

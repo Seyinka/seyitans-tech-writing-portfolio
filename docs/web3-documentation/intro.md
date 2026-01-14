@@ -1,4 +1,7 @@
-# Web3 Documentation Project
+---
+id: intro
+title: Web3 Documentation Project
+---
 
 This project is part of the WriteTech Accelerator Programme and explores technical writing in the Web3 ecosystem. I chose **Option C** and created a white paper to explain how blockchain can improve privacy, transparency, and access in mental wellness applications.
 
