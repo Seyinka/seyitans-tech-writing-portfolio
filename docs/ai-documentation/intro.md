@@ -1,4 +1,7 @@
-# AI for Documentation – Sentiment Analysis Model
+---
+id: intro
+title: AI for Documentation – Sentiment Analysis Model
+---
 
 This project explores how AI tools can support documentation by generating drafts, extracting key insights, and supplementing existing materials.
 

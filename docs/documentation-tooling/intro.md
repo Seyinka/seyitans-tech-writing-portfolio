@@ -1,9 +1,7 @@
 ---
 id: intro
-title: Introduction
+title: "Mautic: Open-Source Marketing Automation"
 ---
-
-## Mautic: Open-Source Marketing Automation
 
 [Mautic](https://www.mautic.org/) is an open-source **marketing automation platform** that helps businesses manage campaigns, segment contacts, and track user engagement across multiple channels.
 
